@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AKey">
+        <attr name="text_color" format="color"></attr>
+        <attr name="text_size" format="dimension"></attr>
+        <attr name="background" format="reference"></attr>
+        <attr name="key_label" format="string"></attr>
+    </declare-styleable>
+</resources>

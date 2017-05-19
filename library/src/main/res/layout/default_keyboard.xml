@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/keyboard_background"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:padding="4sp"
+        android:text="安全键盘"
+        android:textColor="@color/key_text_color"
+        android:textSize="16sp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/keyboard_background">
+
+        <xyz.royliu.library.AKeyboardView
+            android:id="@id/keyboardview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@color/keyboard_background"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:keyBackground="@drawable/sel_btn_key_abc_bg"
+            android:keyPreviewHeight="70dp"
+            android:keyPreviewLayout="@layout/keyboardd_preview"
+            android:keyPreviewOffset="-3dp"
+            android:keyTextColor="@color/key_text_color"
+            android:keyTextSize="20dp"
+            android:labelTextSize="15dp"
+            android:shadowColor="@color/black"
+            android:shadowRadius="0.0"/>
+    </RelativeLayout>
+</LinearLayout>

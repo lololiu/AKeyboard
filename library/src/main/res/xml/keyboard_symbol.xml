@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:AKey="http://schemas.android.com/apk/res-auto"
+          android:horizontalGap="1.2%p"
+          android:keyHeight="6.4%p"
+          android:keyWidth="8.500002%p"
+          android:verticalGap="1.55%p">
+    <Row>
+        <Key
+            android:horizontalGap="0.3%p"
+            android:keyEdgeFlags="left"
+            android:keyLabel="@string/char_33"
+            android:keyOutputText="@string/char_33"/>                                        <!-- ! -->
+        <Key
+            android:keyLabel="@string/char_64"
+            android:keyOutputText="@string/char_64"/><!-- @ -->
+        <Key
+            android:keyLabel="@string/char_35"
+            android:keyOutputText="@string/char_35"/><!-- # -->
+        <Key
+            android:keyLabel="@string/char_36"
+            android:keyOutputText="@string/char_36"/><!-- $ -->
+        <Key
+            android:keyLabel="@string/char_37"
+            android:keyOutputText="@string/char_37"/><!-- % -->
+        <Key
+            android:keyLabel="@string/char_94"
+            android:keyOutputText="@string/char_94"/><!-- ^ -->
+        <Key
+            android:keyLabel="@string/char_38"
+            android:keyOutputText="@string/char_38"/><!-- & -->
+        <Key
+            android:keyLabel="@string/char_42"
+            android:keyOutputText="@string/char_42"/><!-- * -->
+        <Key
+            android:keyLabel="@string/char_40"
+            android:keyOutputText="@string/char_40"/><!-- ( -->
+        <Key
+            android:keyEdgeFlags="right"
+            android:keyLabel="@string/char_41"
+            android:keyOutputText="@string/char_41"/>                                         <!-- ) -->
+    </Row>
+
+    <Row>
+        <Key
+            android:horizontalGap="0.3%p"
+            android:keyEdgeFlags="left"
+            android:keyLabel="@string/char_39"
+            android:keyOutputText="@string/char_39"/>                                        <!-- ' -->
+        <Key
+            android:keyLabel="@string/strsign2"
+            android:keyOutputText="@string/strsign2"/><!-- " -->
+        <Key
+            android:keyLabel="@string/char_61"
+            android:keyOutputText="@string/char_61"/><!-- = -->
+        <Key
+            android:keyLabel="@string/char_95"
+            android:keyOutputText="@string/char_95"/><!-- _ -->
+        <Key
+            android:keyLabel="@string/char_58"
+            android:keyOutputText="@string/char_58"/><!-- : -->
+        <Key
+            android:keyLabel="@string/char_59"
+            android:keyOutputText="@string/char_59"/><!-- ; -->
+        <Key
+            android:keyLabel="@string/char_63"
+            android:keyOutputText="@string/char_63"/><!-- & -->
+        <Key
+            android:keyLabel="@string/char_126"
+            android:keyOutputText="@string/char_126"/><!-- ~ -->
+        <Key
+            android:keyLabel="@string/char_124"
+            android:keyOutputText="@string/char_124"/><!-- | -->
+        <Key
+            android:keyEdgeFlags="right"
+            android:keyLabel="@string/char_bigPoint"
+            android:keyOutputText="@string/char_bigPoint"/>                                         <!-- · -->
+    </Row>
+
+    <Row>
+        <Key
+            android:horizontalGap="5.0%p"
+            android:isModifier="true"
+            android:keyEdgeFlags="left"
+            android:keyLabel="@string/char_43"
+            android:keyOutputText="@string/char_43"/>     <!-- + -->
+        <Key
+            android:keyLabel="@string/char_45"
+            android:keyOutputText="@string/char_45"/><!-- - -->
+        <Key
+            android:keyLabel="@string/char_92"
+            android:keyOutputText="@string/char_92"/><!-- \ -->
+        <Key
+            android:keyLabel="@string/char_47"
+            android:keyOutputText="@string/char_47"/><!-- / -->
+        <Key
+            android:keyLabel="@string/char_91"
+            android:keyOutputText="@string/char_91"/><!-- [ -->
+        <Key
+            android:keyLabel="@string/char_93"
+            android:keyOutputText="@string/char_93"/><!-- ] -->
+        <Key
+            android:keyLabel="@string/char_123"
+            android:keyOutputText="@string/char_123"/><!-- { -->
+        <Key
+            android:keyLabel="@string/char_125"
+            android:keyOutputText="@string/char_125"/><!-- } -->
+        <Key
+            android:codes="-5"
+            android:isRepeatable="true"
+            android:keyEdgeFlags="right"
+            android:keyWidth="12.999998%p"
+            AKey:background="@drawable/sel_btn_key_delete_bg"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+
+        <Key
+            android:codes="123123"
+            android:horizontalGap="0.3%p"
+            android:keyLabel="@string/char123"
+            android:keyWidth="12.999998%p"
+            AKey:background="@drawable/sel_btn_key_change"/>
+
+        <Key
+            android:keyLabel="@string/char_44"
+            android:keyOutputText="@string/char_44"/><!-- , -->
+        <Key
+            android:keyLabel="@string/char_46"
+            android:keyOutputText="@string/char_46"/><!-- . -->
+        <Key
+            android:keyLabel="@string/char_60"
+            android:keyOutputText="@string/char_60"/><!-- < -->
+        <Key
+            android:keyLabel="@string/char_62"
+            android:keyOutputText="@string/char_62"/><!-- > -->
+        <Key
+            android:keyLabel="@string/char_96"
+            android:keyOutputText="@string/char_96"/><!-- ' -->
+        <Key
+            android:keyLabel="@string/char_pound"
+            android:keyOutputText="@string/char_pound"/><!-- £ -->
+        <Key
+            android:keyLabel="@string/char_renmingbi"
+            android:keyOutputText="@string/char_renmingbi"/><!-- ¥ -->
+
+        <Key
+            android:codes="456456"
+            android:keyEdgeFlags="right"
+            android:keyLabel="@string/char_abc"
+            android:keyWidth="12.999998%p"
+            AKey:background="@drawable/sel_btn_key_change"/>
+    </Row>
+</Keyboard>
